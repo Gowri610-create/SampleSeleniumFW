@@ -2,6 +2,7 @@ package TestLayer;
 
 import PageLayer.Home;
 import PageLayer.Login;
+import PageLayer.Logout;
 
 public class test {
 
@@ -10,6 +11,8 @@ public class test {
 		log.loginfunctionality("Admin", "admin123");
 		Home hm=new Home();
 		hm.homepageFunctionality();
+		Logout lo=new Logout();
+		lo.logout();
 	}
 
 }
